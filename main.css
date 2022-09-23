@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css2?family=Bungee+Spice);
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap');
+
+body {
+    padding: 100px;
+    margin: 0;
+    background-color: black;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-size: 3em;
+}
+h1 {
+    color: yellow;
+    font-size: 2rem;
+
+}
+h2 {
+    font-size: 1.5rem;
+    color: yellow;
+
+}
+a {
+    text-decoration-color: yellow;
+    color: inherit;
+}
+a:visited {
+    text-decoration-color: lightgreen;
+    color: inherit;
+}
+pre {
+    padding: 1em 3em;
+}
+
+.aref {
+    font-family: 'Aref Ruqaa Ink', cursive;
+    font-palette: --colorized;
+    color: red;
+}
+.bungee {
+    font-family: "Bungee Spice", serif;
+    font-palette: --colorized;
+    color: orange;
+}
+.explanation {
+    margin-top: 100px;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    color: white;
+    line-height: 120%;
+}
+.nabla {
+    font-family: 'Nabla', cursive;
+    font-palette: --colorized;
+    color: yellow;
+}
+
+

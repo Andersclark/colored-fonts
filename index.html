@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="./main.css" rel="stylesheet">
+    <title>Colorize</title>
+</head>
+<body>
+<main>
+    <p class="bungee" contenteditable spellcheck="false">Bungee Spice</p>
+    <p class="nabla" contenteditable spellcheck="false">Nabla</p>
+    <p class="aref" contenteditable spellcheck="false">لمّا كان الاعتراف بالكرامة المتأصلة في جميع</p>
+    <article class="explanation">
+        <h1>What is this?</h1>
+        <p>This page is Anders Clark's exploration of the new font-format with variable colors. If the texts do not have color-gradients - try using Chrome. You can read more about it on <a href="https://material.io/blog/color-fonts-are-here">the Material Design-blog.</a></p>
+        <p>The text-snippets above can be edited. So far, what is beautiful about these fonts is that they act like emojis: offering color without specialized solutions</p>
+        <h2>The CSS for the beautiful fonts above looks like this:</h2>
+        <pre contenteditable>
+            <code contenteditable>
+@import url(https://fonts.googleapis.com/css2?family=Bungee+Spice);
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap');
+.aref {
+    font-family: 'Aref Ruqaa Ink', cursive;
+    font-palette: --colorized;
+    color: red;
+}
+.bungee {
+    font-family: "Bungee Spice", serif;
+    font-palette: --colorized;
+    color: orange;
+}
+.nabla {
+    font-family: 'Nabla', cursive;
+    font-palette: --colorized;
+    color: yellow;
+}
+            </code>
+        </pre>
+    </article>
+</main>
+</body>
+</html>
